@@ -26,10 +26,12 @@
         <!-- declare language version for IntelliJ IDEA -->
         <maven.compiler.source>${takari.javaSourceVersion}</maven.compiler.source>
         <maven.compiler.target>${takari.javaSourceVersion}</maven.compiler.target>
+
+        <takariLifecycleVersion>1.13.0</takariLifecycleVersion>
     </properties>
 
     <prerequisites>
-        <maven>[3.2.1,)</maven>
+        <maven>[3.3.9,)</maven>
     </prerequisites>
 
     <dependencies>
